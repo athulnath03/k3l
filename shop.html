@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shop All — ARCHIVE.</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="announce">Free shipping on orders over $150 · Returns within 30 days</div>
+
+<header class="site-header">
+  <div class="wrap nav-row">
+    <button class="icon-btn hamburger" data-hamburger aria-label="Open menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+    <a href="index.html" class="logo">ARCHIVE.</a>
+    <nav class="nav-links">
+      <a href="shop.html">New In</a>
+      <a href="shop.html" class="active">Shop All</a>
+      <a href="shop.html">Outerwear</a>
+      <a href="index.html#about">About</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="icon-btn" aria-label="Search">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      </button>
+      <button class="icon-btn" aria-label="Account">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg>
+      </button>
+      <button class="icon-btn" data-cart-open aria-label="Open cart">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M6 8h12l-1 12H7L6 8z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg>
+        <span class="cart-count" data-cart-count>0</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-nav" data-mobile-nav>
+  <div class="mobile-nav-top">
+    <span class="logo">ARCHIVE.</span>
+    <button class="mobile-nav-close" data-hamburger aria-label="Close menu">&times;</button>
+  </div>
+  <ul>
+    <li><a href="shop.html">New In</a></li>
+    <li><a href="shop.html">Shop All</a></li>
+    <li><a href="shop.html">Outerwear</a></li>
+    <li><a href="index.html#about">About</a></li>
+    <li><a href="cart.html">Bag</a></li>
+  </ul>
+</div>
+
+<main>
+  <div class="wrap">
+    <div class="breadcrumb"><a href="index.html">Home</a> / Shop All</div>
+
+    <div class="section-head" style="margin-bottom:12px;">
+      <h2>Shop All</h2>
+      <span class="result-count" data-result-count>8 pieces</span>
+    </div>
+
+    <div class="filter-bar">
+      <div class="chip-row">
+        <button class="chip active" data-filter-chip="all">All</button>
+        <button class="chip" data-filter-chip="outerwear">Outerwear</button>
+        <button class="chip" data-filter-chip="knitwear">Knitwear</button>
+        <button class="chip" data-filter-chip="tailoring">Tailoring</button>
+        <button class="chip" data-filter-chip="shirting">Shirting</button>
+      </div>
+      <select class="sort" data-sort aria-label="Sort products">
+        <option value="featured">Sort: Featured</option>
+        <option value="price-asc">Price: Low to High</option>
+        <option value="price-desc">Price: High to Low</option>
+        <option value="name">Name: A–Z</option>
+      </select>
+    </div>
+
+    <div class="grid" data-grid style="padding-bottom:96px;">
+
+      <a href="product.html" class="card" data-product-card data-category="outerwear" data-price="340" data-name="Wool Overcoat">
+        <div class="card-media">
+          <img class="img-main" src="https://images.unsplash.com/photo-1551028719-00167b16eac5?q=80&w=800&auto=format&fit=crop" alt="Wool Overcoat, front">
+          <img class="img-alt" src="https://images.unsplash.com/photo-1544022613-e87ca75a784a?q=80&w=800&auto=format&fit=crop" alt="Wool Overcoat, back">
+          <button class="btn btn-block card-quickadd" data-quickadd data-id="p1" data-name="Wool Overcoat" data-price="340" data-img="https://images.unsplash.com/photo-1551028719-00167b16eac5?q=80&w=800&auto=format&fit=crop">Quick add</button>
+        </div>
+        <div class="card-title">Wool Overcoat</div>
+        <div class="card-meta"><span>$340.00</span><span>Onyx</span></div>
+      </a>
+
+      <a href="product.html" class="card" data-product-card data-category="knitwear" data-price="128" data-name="Ribbed Knit Sweater" style="animation-delay:60ms">
+        <div class="card-media">
+          <img class="img-main" src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?q=80&w=800&auto=format&fit=crop" alt="Ribbed Knit Sweater, front">
+          <img class="img-alt" src="https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?q=80&w=800&auto=format&fit=crop" alt="Ribbed Knit Sweater, detail">
+          <button class="btn btn-block card-quickadd" data-quickadd data-id="p2" data-name="Ribbed Knit Sweater" data-price="128" data-img="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?q=80&w=800&auto=format&fit=crop">Quick add</button>
+        </div>
+        <div class="card-title">Ribbed Knit Sweater</div>
+        <div class="card-meta"><span>$128.00</span><span>Bone</span></div>
+      </a>
+
+      <a href="product.html" class="card" data-product-card data-category="tailoring" data-price="165" data-name="Tailored Trousers" style="animation-delay:120ms">
+        <div class="card-media">
+          <img class="img-main" src="https://images.unsplash.com/photo-1594938298603-c8148c4dae35?q=80&w=800&auto=format&fit=crop" alt="Tailored Trousers, front">
+          <img class="img-alt" src="https://images.unsplash.com/photo-1473966968600-fa801b869a1a?q=80&w=800&auto=format&fit=crop" alt="Tailored Trousers, worn">
+          <span class="card-tag">New</span>
+          <button class="btn btn-block card-quickadd" data-quickadd data-id="p3" data-name="Tailored Trousers" data-price="165" data-img="https://images.unsplash.com/photo-1594938298603-c8148c4dae35?q=80&w=800&auto=format&fit=crop">Quick add</button>
+        </div>
+        <div class="card-title">Tailored Trousers</div>
+        <div class="card-meta"><span>$165.00</span><span>Graphite</span></div>
+      </a>
+
+      <a href="product.html" class="card" data-product-card data-category="shirting" data-price="98" data-name="Structured Cotton Shirt" style="animation-delay:180ms">
+        <div class="card-media">
+          <img class="img-main" src="https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?q=80&w=800&auto=format&fit=crop" alt="Structured Cotton Shirt, front">
+          <img class="img-alt" src="https://images.unsplash.com/photo-1598032895397-b9472444bf93?q=80&w=800&auto=format&fit=crop" alt="Structured Cotton Shirt, folded">
+          <button class="btn btn-block card-quickadd" data-quickadd data-id="p4" data-name="Structured Cotton Shirt" data-price="98" data-img="https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?q=80&w=800&auto=format&fit=crop">Quick add</button>
+        </div>
+        <div class="card-title">Structured Cotton Shirt</div>
+        <div class="card-meta"><span>$98.00</span><span>Ecru</span></div>
+      </a>
+
+      <a href="product.html" class="card" data-product-card data-category="outerwear" data-price="285" data-name="Boiled Wool Jacket" style="animation-delay:240ms">
+        <div class="card-media">
+          <img class="img-main" src="https://images.unsplash.com/photo-1591047139829-d91aecb6caea?q=80&w=800&auto=format&fit=crop" alt="Boiled Wool Jacket, front">
+          <img class="img-alt" src="https://images.unsplash.com/photo-1544441893-675973e31985?q=80&w=800&auto=format&fit=crop" alt="Boiled Wool Jacket, styled">
+          <button class="btn btn-block card-quickadd" data-quickadd data-id="p5" data-name="Boiled Wool Jacket" data-price="285" data-img="https://images.unsplash.com/photo-1591047139829-d91aecb6caea?q=80&w=800&auto=format&fit=crop">Quick add</button>
+        </div>
+        <div class="card-title">Boiled Wool Jacket</div>
+        <div class="card-meta"><span>$285.00</span><span>Charcoal</span></div>
+      </a>
+
+      <a href="product.html" class="card" data-product-card data-category="knitwear" data-price="142" data-name="Cashmere Blend Cardigan" style="animation-delay:300ms">
+        <div class="card-media">
+          <img class="img-main" src="https://images.unsplash.com/photo-1608234807905-4466023792f5?q=80&w=800&auto=format&fit=crop" alt="Cashmere Blend Cardigan, front">
+          <img class="img-alt" src="https://images.unsplash.com/photo-1610652492500-ded49ceeb378?q=80&w=800&auto=format&fit=crop" alt="Cashmere Blend Cardigan, styled">
+          <button class="btn btn-block card-quickadd" data-quickadd data-id="p6" data-name="Cashmere Blend Cardigan" data-price="142" data-img="https://images.unsplash.com/photo-1608234807905-4466023792f5?q=80&w=800&auto=format&fit=crop">Quick add</button>
+        </div>
+        <div class="card-title">Cashmere Blend Cardigan</div>
+        <div class="card-meta"><span>$142.00</span><span>Bone</span></div>
+      </a>
+
+      <a href="product.html" class="card" data-product-card data-category="tailoring" data-price="210" data-name="Wool Blend Blazer" style="animation-delay:360ms">
+        <div class="card-media">
+          <img class="img-main" src="https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?q=80&w=800&auto=format&fit=crop" alt="Wool Blend Blazer, front">
+          <img class="img-alt" src="https://images.unsplash.com/photo-1591343395902-1707cf6d3c85?q=80&w=800&auto=format&fit=crop" alt="Wool Blend Blazer, styled">
+          <button class="btn btn-block card-quickadd" data-quickadd data-id="p7" data-name="Wool Blend Blazer" data-price="210" data-img="https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?q=80&w=800&auto=format&fit=crop">Quick add</button>
+        </div>
+        <div class="card-title">Wool Blend Blazer</div>
+        <div class="card-meta"><span>$210.00</span><span>Onyx</span></div>
+      </a>
+
+      <a href="product.html" class="card" data-product-card data-category="shirting" data-price="88" data-name="Oxford Weave Shirt" style="animation-delay:420ms">
+        <div class="card-media">
+          <img class="img-main" src="https://images.unsplash.com/photo-1596755094514-f87e34085b2c?q=80&w=800&auto=format&fit=crop" alt="Oxford Weave Shirt, front">
+          <img class="img-alt" src="https://images.unsplash.com/photo-1603252109303-2751441dd157?q=80&w=800&auto=format&fit=crop" alt="Oxford Weave Shirt, folded">
+          <button class="btn btn-block card-quickadd" data-quickadd data-id="p8" data-name="Oxford Weave Shirt" data-price="88" data-img="https://images.unsplash.com/photo-1596755094514-f87e34085b2c?q=80&w=800&auto=format&fit=crop">Quick add</button>
+        </div>
+        <div class="card-title">Oxford Weave Shirt</div>
+        <div class="card-meta"><span>$88.00</span><span>Ecru</span></div>
+      </a>
+
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap footer-grid">
+    <div>
+      <span class="logo">ARCHIVE.</span>
+      <p style="margin-top:16px; font-size:13.5px; color:hsl(0,0%,65%); max-width:280px;">Considered clothing, cut for longevity. Based in New York, worn everywhere.</p>
+    </div>
+    <div>
+      <h4>Shop</h4>
+      <ul>
+        <li><a href="shop.html">New In</a></li>
+        <li><a href="shop.html">Outerwear</a></li>
+        <li><a href="shop.html">Knitwear</a></li>
+        <li><a href="shop.html">Accessories</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Support</h4>
+      <ul>
+        <li><a href="#">Shipping & Returns</a></li>
+        <li><a href="#">Size Guide</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">FAQ</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Company</h4>
+      <ul>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="#">Journal</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Sustainability</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <span>© 2026 Archive. All rights reserved.</span>
+    <span>Privacy · Terms</span>
+  </div>
+</footer>
+
+<div class="drawer-backdrop" data-drawer-backdrop></div>
+<div class="drawer" data-drawer>
+  <div class="drawer-head">
+    <span style="font-size:14px; font-weight:600; letter-spacing:0.04em; text-transform:uppercase;">Your Bag</span>
+    <button class="drawer-close" data-drawer-close aria-label="Close cart">&times;</button>
+  </div>
+  <div class="drawer-body" data-drawer-body></div>
+  <div class="drawer-foot" data-drawer-foot></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

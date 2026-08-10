@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Bag — ARCHIVE.</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="announce">Free shipping on orders over $150 · Returns within 30 days</div>
+
+<header class="site-header">
+  <div class="wrap nav-row">
+    <button class="icon-btn hamburger" data-hamburger aria-label="Open menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+    <a href="index.html" class="logo">ARCHIVE.</a>
+    <nav class="nav-links">
+      <a href="shop.html">New In</a>
+      <a href="shop.html">Shop All</a>
+      <a href="shop.html">Outerwear</a>
+      <a href="index.html#about">About</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="icon-btn" aria-label="Search">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      </button>
+      <button class="icon-btn" aria-label="Account">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg>
+      </button>
+      <button class="icon-btn" data-cart-open aria-label="Open cart">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M6 8h12l-1 12H7L6 8z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg>
+        <span class="cart-count" data-cart-count>0</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-nav" data-mobile-nav>
+  <div class="mobile-nav-top">
+    <span class="logo">ARCHIVE.</span>
+    <button class="mobile-nav-close" data-hamburger aria-label="Close menu">&times;</button>
+  </div>
+  <ul>
+    <li><a href="shop.html">New In</a></li>
+    <li><a href="shop.html">Shop All</a></li>
+    <li><a href="shop.html">Outerwear</a></li>
+    <li><a href="index.html#about">About</a></li>
+    <li><a href="cart.html">Bag</a></li>
+  </ul>
+</div>
+
+<main>
+  <div class="wrap" data-cart-page style="padding-top: var(--sp-6); padding-bottom: var(--sp-9);">
+    <h1 style="font-size: clamp(1.8rem,3vw,2.4rem); margin-bottom: var(--sp-6);">Your Bag</h1>
+
+    <div class="cart-layout">
+      <div data-cart-list></div>
+      <div class="summary-box" data-cart-summary></div>
+    </div>
+
+    <div class="empty-state" data-cart-empty style="display:none;">
+      <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" style="margin: 0 auto 20px; opacity:0.4;"><path d="M6 8h12l-1 12H7L6 8z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg>
+      <h2>Your bag is empty</h2>
+      <p>Looks like you haven't added anything yet. Explore the collection to find something worth keeping.</p>
+      <a href="shop.html" class="btn">Continue shopping</a>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap footer-grid">
+    <div>
+      <span class="logo">ARCHIVE.</span>
+      <p style="margin-top:16px; font-size:13.5px; color:hsl(0,0%,65%); max-width:280px;">Considered clothing, cut for longevity. Based in New York, worn everywhere.</p>
+    </div>
+    <div>
+      <h4>Shop</h4>
+      <ul>
+        <li><a href="shop.html">New In</a></li>
+        <li><a href="shop.html">Outerwear</a></li>
+        <li><a href="shop.html">Knitwear</a></li>
+        <li><a href="shop.html">Accessories</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Support</h4>
+      <ul>
+        <li><a href="#">Shipping & Returns</a></li>
+        <li><a href="#">Size Guide</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">FAQ</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Company</h4>
+      <ul>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="#">Journal</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Sustainability</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <span>© 2026 Archive. All rights reserved.</span>
+    <span>Privacy · Terms</span>
+  </div>
+</footer>
+
+<div class="drawer-backdrop" data-drawer-backdrop></div>
+<div class="drawer" data-drawer>
+  <div class="drawer-head">
+    <span style="font-size:14px; font-weight:600; letter-spacing:0.04em; text-transform:uppercase;">Your Bag</span>
+    <button class="drawer-close" data-drawer-close aria-label="Close cart">&times;</button>
+  </div>
+  <div class="drawer-body" data-drawer-body></div>
+  <div class="drawer-foot" data-drawer-foot></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
